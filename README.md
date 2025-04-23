@@ -4,6 +4,10 @@ A React-based web application that helps developers, especially beginners, gain 
 
 ---
 
+## Live Demo
+
+🚀 You can try my hosted project here: [Code Reviewer - Live Demo](https://codereviewer-1-a14g.onrender.com/)
+
 ## ✨ Features
 
 - 🧠 **AI-Powered Code Analysis** using Google Gemini API  
