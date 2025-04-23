@@ -18,11 +18,13 @@ A React-based web application that helps developers, especially beginners, gain 
 ---
 
 ## Screenshots and Videos
-https://github.com/user-attachments/assets/82553c7d-5d61-4d22-9d99-2c2e15fa215b
+🎥 [Watch Demo Video](https://raw.githubusercontent.com/aditya-kumar-patraan1/CodeReviewer/main/Client/CodeReviwer.mp4)
+- Dark Theme
+<img src="https://github.com/aditya-kumar-patraan1/CodeReviewer/blob/main/Client/darktheme.png?raw=true" width="600" alt="Dark Theme Screenshot" />
 
-| <img src="https://github.com/user-attachments/assets/a0a85d4f-26b6-44ea-a4f4-46f80bae9907" width="300" alt="Screenshot 1" /> | <img src="https://github.com/user-attachments/assets/a76ef71a-ce2f-402e-863d-baa435ddb938" width="300" alt="Screenshot 2" /> | <img src="https://github.com/user-attachments/assets/2b758598-71ae-4d8b-9406-73b2b52a8019" width="300" alt="Screenshot 3" /> |
-|:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
-| <img src="https://github.com/user-attachments/assets/be941868-2eb8-4785-8a9e-d0d91bce66b3" width="300" alt="Screenshot 4" /> | <img src="https://github.com/user-attachments/assets/c0067fb8-136b-400e-b97e-f3e2c1a44c40" width="300" alt="Screenshot 5" /> | <img src="https://github.com/user-attachments/assets/a2387fc5-d440-4c82-9b79-da18c1723247" width="300" alt="Screenshot 6" /> |
+- Light Theme
+<img src="https://github.com/aditya-kumar-patraan1/CodeReviewer/blob/main/Client/lighttheme.png?raw=true" width="600" alt="Dark Theme Screenshot" />
+
 
 
 ---
@@ -31,7 +33,10 @@ https://github.com/user-attachments/assets/82553c7d-5d61-4d22-9d99-2c2e15fa215b
 
 ### Prerequisites
 
-- Node.js (v16 or higher)
+- Node.js
+- Express.js
+- Javascript
+- React.js
 - npm or yarn
 - Google Gemini API Key
 
@@ -39,37 +44,29 @@ https://github.com/user-attachments/assets/82553c7d-5d61-4d22-9d99-2c2e15fa215b
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/CodeDoodle-Code-Reviewer.git
+git clone https://github.com/aditya-kumar-patraan1/CodeDoodle-Code-Reviewer.git
+```
 2. Navigate to the project directory
 ```bash
-cd FoodScanAI
+cd CodeReviewer
 ```
 3. Create a .env file in the root directory and add your Gemini API key:
 ```bash
 GEMINI_API_KEY=your_api_key_here
 ```
 4. Install dependencies
-```bash
-flutter pub get
-```
+
 5. Run the app
 ```bash
-flutter run --no-enable-impeller
+npm run dev
 ```
 
 ## Technologies Used
-- Flutter SDK (>=3.4.3)
-- Dart SDK
 - Google Gemini API key
-- Flutter & Dart
+- React.js
+- Node.js
+- Express.js
 - Google Generative AI (Gemini)
-- SharedPreferences for local storage
-- Various Flutter packages:
--   image_picker for camera integration
--   flutter_dotenv for environment variables
--   fl_chart for data visualization
--   rive for animations
--   And more...
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
